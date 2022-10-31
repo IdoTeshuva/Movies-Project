@@ -1,0 +1,28 @@
+.modalContent{
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 2vw;
+    border-radius: 10px;
+    color: white;
+    border-bottom: 5px rgb(198, 18, 18);
+    margin-top: 2vh;
+    
+}
+.closeModal{
+    color: rgb(198, 18, 18);
+    background-color: rgba(0, 0, 0, 0.326);
+    border: 1px solid rgb(198, 18, 18) ;
+    border-bottom:2px rgb(198, 18, 18);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1.5vh;
+}
+.submitModal{
+    padding: 10px;
+    background-color: rgb(198, 18, 18);
+    color: white;
+    border-radius: 10px;
+    border: 1px black;
+    cursor: pointer;
+    margin-right: 5px;
+}

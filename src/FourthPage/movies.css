@@ -1,0 +1,150 @@
+body{
+    min-height: 140vh;
+    height: auto;
+    background: radial-gradient( rgb(39, 39, 39), black);
+    background-repeat: no-repeat;
+}
+.movieMain{
+    z-index: 2;
+}
+.Netflix{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/732/732228.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    z-index: -1;
+    opacity: 3%;
+    left: 0;
+
+}
+h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 2vh;
+}
+    
+.div1 { 
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+.movieLine{
+    display: contents;
+}
+.table{
+    color: white;
+    border-collapse: collapse;
+    width: 100vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.table th{
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 2vh;
+    border-bottom: 2px solid rgb(198, 18, 18);
+    cursor:default;
+}
+.table th:hover{
+    text-decoration:rgb(198, 18, 18)  underline ;
+}
+td{
+    padding: 2vh;
+    
+}
+
+tr:nth-of-type(even){
+    background-color: rgba(15, 15, 15, 0.700);
+    
+}
+
+.movieBtn{
+    padding: 10px;
+    background-color: rgb(198, 18, 18);
+    color: white;
+    border-radius: 10px;
+    border: 1px black;
+    cursor: pointer;
+    box-shadow: 2px -5px  20px rgba(0, 0, 0, 0.3);
+
+}
+.movieBtn:hover{
+    font-weight: bold;
+    padding: 10px;
+}
+.Header{
+    color: white;
+}
+.parameters{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(41, 41, 41, 0.228);
+    margin-top: 3vh;
+    font-weight: 900;
+    /* margin-right: 10vw; */
+    padding-right: 12vw;
+}
+.movie{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 12vh;
+}
+.movie2{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(41, 41, 41, 0.228);
+    height: 12vh;
+}
+.img{
+    height: 7rem;
+    width:5rem;
+    border: 1px solid rgb(198, 18, 18);
+    background-size: contain;
+    display: inline-flex;
+}
+.likes{
+    display: flex;
+    justify-content: center;
+}
+.likeBtn{
+    background-color: rgba(245, 222, 179, 0);
+    border: 1px rgba(255, 255, 255, 0);
+}
+.iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 1vh;
+}
+.closeMovie{
+    color: rgb(198, 18, 18);
+    background-color: rgba(0, 0, 0, 0.326);
+    border: 1px solid rgb(198, 18, 18) ;
+    border-bottom:2px rgb(198, 18, 18);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1.5vh;
+    box-shadow: 2px -5px  20px rgba(0, 0, 0, 0.3);
+}
+
+.closeMovie:hover{
+    font-weight: bold;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px){
+    .iframe{
+        width: 237px;
+        height: 172px;
+    }
+    .table{
+        width: 50vw;
+    }
+}

@@ -1,0 +1,42 @@
+
+
+.playerContent{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.635);
+    padding: 2vw;
+    border-radius: 10px;
+    top: 15vh;
+    right: 30vw
+
+}
+.closePlayer{
+    color: rgb(198, 18, 18);
+    background-color: rgba(0, 0, 0, 0.326);
+    border: 1px solid rgb(198, 18, 18) ;
+    border-bottom:2px rgb(198, 18, 18);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1.5vh;
+    box-shadow: 2px -5px  20px rgba(0, 0, 0, 0.3);
+}
+.PlayerBTN{
+    color: rgb(198, 18, 18);
+    background-color: rgba(0, 0, 0, 0.326);
+    border: 1px solid rgb(198, 18, 18) ;
+    border-bottom:2px rgb(198, 18, 18);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1.5vh;
+    box-shadow: 2px -5px  20px rgba(0, 0, 0, 0.3);
+}
+.PlayerBTN:hover{
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px){
+    .player{
+        width: 237px;
+        height: 172px;
+    }
+}
