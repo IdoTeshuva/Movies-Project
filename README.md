@@ -1,4 +1,4 @@
-#Movies Project
+# Movies Project
 Organize your faourite movies using this website!
 You can add your movies with their own images and trailers, give them rating, and delete the ones you have already watched! 
 This is my third project in my FullStack course.
